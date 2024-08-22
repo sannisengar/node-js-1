@@ -1,0 +1,16 @@
+<script>
+    function sanni(pn) {
+        return new Promise(function (res, rej) {
+            if (pn) {
+                res("yes")
+            } else {
+                rej("no")
+            }
+        })
+    }
+    sanni(true).then((result) => {
+        document.write(result)
+    }).catch((error) => {
+        console.log(error)
+    })
+</script>

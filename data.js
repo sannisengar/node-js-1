@@ -1,0 +1,7 @@
+const data =require('./employe.js')
+console.log(data)
+// console .log(data.user.phone)
+// console.log(data.emp.itm[1])
+// data.emp.mpct()
+// console.log(data.name)
+// console.log(data.emp.collage)
